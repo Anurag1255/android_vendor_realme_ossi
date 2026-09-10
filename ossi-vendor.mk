@@ -20,37 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/ossi/proprietary/odm/etc/init/vendor.oplus.hardware.cryptoeng@1.0-service_FDE.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cryptoeng@1.0-service_FDE.rc \
     vendor/realme/ossi/proprietary/odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc \
     vendor/realme/ossi/proprietary/odm/etc/init/vibrator-default.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vibrator-default.rc \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/android.hardware.power.stats-service.oplus.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/android.hardware.power.stats-service.oplus.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/android.hardware.power.stats.IPowerStats-V2.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/android.hardware.power.stats.IPowerStats-V2.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/device_manifest_communication_center_aidl.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/device_manifest_communication_center_aidl.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/device_manifest_subsys.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/device_manifest_subsys.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_engineer_aidl.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_engineer_aidl.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_misc_aidl.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_misc_aidl.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_module_virtual_audio.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_module_virtual_audio.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_oplusSensor_aidl.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_oplusSensor_aidl.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_oplus_cammidasservice_aidl.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_oplus_cammidasservice_aidl.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_oplus_charger_aidl.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_oplus_charger_aidl.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_oplus_cryptoeng.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_oplus_cryptoeng.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_oplus_displaypanelfeature_aidl.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_oplus_displaypanelfeature_aidl.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_oplus_face.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_oplus_face.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_oplus_fido.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_oplus_fido.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_oplus_fido2.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_oplus_fido2.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_oplus_fingerprint_aidl_v3.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_oplus_fingerprint_aidl_v3.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_oplus_gameopt.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_oplus_gameopt.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_oplus_ifaa.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_oplus_ifaa.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_oplus_location_aidl.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_oplus_location_aidl.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_oplus_sendextcamcmd.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_oplus_sendextcamcmd.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_oplus_stability_project_aidl.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_oplus_stability_project_aidl.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_oplus_virtualdevice_audio_aidl.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_oplus_virtualdevice_audio_aidl.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_performance_aidl.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_performance_aidl.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_powermonitor_aidl.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_powermonitor_aidl.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_rpmh_aidl.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_rpmh_aidl.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_touch_aidl.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_touch_aidl.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/manifest_transmessage_aidl.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_transmessage_aidl.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/oplus_aidl_wifi_service_device_manifest.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/oplus_aidl_wifi_service_device_manifest.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/vendor.oplus.hardware.olc2_aidl.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/vendor.oplus.hardware.olc2_aidl.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/vendor.oplus.hardware.urcc-service.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/vendor.oplus.hardware.urcc-service.xml \
-    vendor/realme/ossi/proprietary/odm/etc/vintf/manifest/vibrator-default.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/vibrator-default.xml \
     vendor/realme/ossi/proprietary/odm/lib64/liboplusvibratoreffect.so:$(TARGET_COPY_OUT_ODM)/lib64/liboplusvibratoreffect.so \
     vendor/realme/ossi/proprietary/odm/lib64/vendor.oplus.hardware.charger-V6-ndk.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.charger-V6-ndk.so \
     vendor/realme/ossi/proprietary/odm/lib64/vendor.oplus.hardware.cryptoeng-V1-ndk.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cryptoeng-V1-ndk.so \
@@ -114,44 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/ossi/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc \
     vendor/realme/ossi/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram-sevice.rc \
     vendor/realme/ossi/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/android.hardware.audio.effect.service-aidl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.audio.effect.service-aidl.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/android.hardware.audio.service-aidl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.audio.service-aidl.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/android.hardware.bluetooth-service-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.bluetooth-service-mediatek.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/android.hardware.boot-service.mtk.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.boot-service.mtk.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/android.hardware.gatekeeper-service.trustonic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gatekeeper-service.trustonic.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service.trustonic_norkp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.security.keymint-service.trustonic_norkp.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.trustonic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.security.secureclock-service.trustonic.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.trustonic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.security.sharedsecret-service.trustonic.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/android.hardware.sensors-multihal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.sensors-multihal.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/android.hardware.tetheroffload-V1-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.tetheroffload-V1-service.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/android.hardware.usb-aidl-service.mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.usb-aidl-service.mediatek.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/android.hardware.usb.gadget-aidl-service.mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.usb.gadget-aidl-service.mediatek.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi-service.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.hostapd.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.supplicant.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/bluetooth_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/bluetooth_audio.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/CommandService.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/CommandService.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/em_hal_service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/em_hal_service.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/gnss-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/gnss-default.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/gnss-mtk.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/gnss-mtk.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/lights-mtk-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/lights-mtk-default.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/manifest_allocator.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_allocator.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/manifest_apuware_apusys_aidl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_apuware_apusys_aidl.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/manifest_apuware_utils_aidl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_apuware_utils_aidl.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/manifest_apuware_xrp_aidl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_apuware_xrp_aidl.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/manifest_hwcomposer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_hwcomposer.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/manifest_media_c2_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_media_c2_default.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/manifest_module_binaural_record.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_module_binaural_record.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/manifest_soter_aidl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_soter_aidl.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/mapper.mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/mapper.mediatek.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/memtrack-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/memtrack-mediatek.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/mtkpower_applist-mtk-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/mtkpower_applist-mtk-default.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/mtk_lbs_service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/mtk_lbs_service.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/power-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/power-mediatek.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/thermal-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/thermal-mediatek.xml \
-    vendor/realme/ossi/proprietary/vendor/etc/vintf/manifest/vendor.oplus.hardware.wifi.supplicant.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.oplus.hardware.wifi.supplicant.xml \
     vendor/realme/ossi/proprietary/vendor/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/BT_FW.cfg \
     vendor/realme/ossi/proprietary/vendor/firmware/connfem.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/connfem.cfg \
     vendor/realme/ossi/proprietary/vendor/firmware/conninfra.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/conninfra.cfg \
