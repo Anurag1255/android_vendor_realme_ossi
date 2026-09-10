@@ -29,9 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/ossi/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
     vendor/realme/ossi/proprietary/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
     vendor/realme/ossi/proprietary/vendor/bin/init.insmod.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.insmod.sh \
-    vendor/realme/ossi/proprietary/vendor/bin/modprobe:$(TARGET_COPY_OUT_VENDOR)/bin/modprobe \
     vendor/realme/ossi/proprietary/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
-    vendor/realme/ossi/proprietary/vendor/bin/sh:$(TARGET_COPY_OUT_VENDOR)/bin/sh \
     vendor/realme/ossi/proprietary/vendor/bin/swap_enable.sh:$(TARGET_COPY_OUT_VENDOR)/bin/swap_enable.sh \
     vendor/realme/ossi/proprietary/vendor/bin/hw/android.hardware.audio.service-aidl.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service-aidl.mediatek \
     vendor/realme/ossi/proprietary/vendor/bin/hw/android.hardware.bluetooth-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth-service-mediatek \
